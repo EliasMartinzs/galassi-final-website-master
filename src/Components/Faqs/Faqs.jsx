@@ -60,39 +60,6 @@ const Faqs = () => {
             calorias diariamente para ter um bom resultado.
           </AccordionDetails>
         </AccordionStyled>
-
-        <AccordionStyled sx={{ background: "transparent" }}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            fafafaf
-          </AccordionSummary>
-          <AccordionDetails>fhaskhfashfkasf</AccordionDetails>
-        </AccordionStyled>
-
-        <AccordionStyled sx={{ background: "transparent" }}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            fafafaf
-          </AccordionSummary>
-          <AccordionDetails>fhaskhfashfkasf</AccordionDetails>
-        </AccordionStyled>
-
-        <AccordionStyled sx={{ background: "transparent" }}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
-            fafafaf
-          </AccordionSummary>
-          <AccordionDetails>fhaskhfashfkasf</AccordionDetails>
-        </AccordionStyled>
       </AccordionWrapper>
     </FaqsMain>
   );

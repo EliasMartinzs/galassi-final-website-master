@@ -10,6 +10,7 @@ import {
   AboutSubTitle,
   AboutTitleDesc,
   AboutParagraphDesc,
+  Button,
 } from "./About.elements";
 
 import aboutImg from "../../assets/sobre.webp";
@@ -49,6 +50,12 @@ const About = () => {
               accusantium nemo hic similique et, a excepturi repellat. Esse
               cumque officia obcaecati quos sit.
             </AboutParagraphDesc>
+            <Button
+              to="https://api.whatsapp.com/send/?phone=43991622448&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              QUERO MARCAR UMA CONSULTA
+            </Button>
           </AboutDescription>
         </AboutWrapper>
       </AboutImg>

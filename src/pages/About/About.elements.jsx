@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const AboutMain = styled.div`
@@ -102,4 +103,24 @@ export const AboutParagraphDesc = styled.p`
   margin-top: 30px;
   font-size: 17px;
   font-weight: 100;
+  margin-bottom: 20px;
+`;
+
+export const Button = styled(Link)`
+  width: 100%;
+  padding: 20px;
+  background-color: #121522;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #212950;
+  }
 `;

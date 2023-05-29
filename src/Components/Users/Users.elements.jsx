@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 export const UsersMain = styled.div`
   width: 100%;
   padding: 80px 20px;
-  background-color: #e7efe8;
+  background-color: #fff;
+  transition-timing-function: linear;
 `;
 
 export const UsersTitle = styled.h4`
@@ -33,7 +34,6 @@ export const UsersWrapper = styled.div`
 export const UsersCard = styled.div`
   width: 500px;
   height: 300px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;

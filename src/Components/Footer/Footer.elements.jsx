@@ -57,9 +57,9 @@ export const SocialIcon = styled.img`
 
 export const WaveFooter = styled.img`
   position: relative;
-  background-color: #e7efe8;
+  background-color: #fff;
   width: 100%;
-  height: 100px;
+  height: 200px;
   margin-bottom: -10px;
   background-position: center;
   background-size: cover;

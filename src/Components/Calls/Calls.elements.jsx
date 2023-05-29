@@ -60,7 +60,7 @@ export const Waves = styled.img`
   height: 300px;
   background-size: cover;
   background-position: center;
-  background-color: #e7efe8;
+  background-color: #fff;
   z-index: -100;
   position: relative;
 `;

@@ -5,7 +5,6 @@ import {
   AboutUser,
   AboutWrapper,
   ImgUser,
-  Img,
   AboutDescription,
   AboutSubTitle,
   AboutTitleDesc,
@@ -13,14 +12,12 @@ import {
   Button,
 } from "./About.elements";
 
-import aboutImg from "../../assets/sobre.webp";
 import aboutUser from "../../assets/jhow1.png";
 
 const About = () => {
   return (
     <AboutMain id="sobre">
       <AboutImg>
-        <Img style={{ backgroundImage: `url(${aboutImg})` }} loading="lazy" />
         <AboutTitle>SOBRE O NUTRICIONISTA</AboutTitle>
         <AboutWrapper>
           <AboutUser>

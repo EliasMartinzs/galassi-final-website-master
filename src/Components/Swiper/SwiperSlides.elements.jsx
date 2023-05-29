@@ -6,6 +6,7 @@ export const Img = styled.img`
   background-size: cover;
   background-position: left;
   filter: contrast(70%);
+  z-index: -999;
 
   @media (min-width: 320px) and (max-width: 767px) {
     height: 60vh;

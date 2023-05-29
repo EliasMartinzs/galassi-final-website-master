@@ -3,7 +3,7 @@ import Accordion from "@mui/material/Accordion";
 
 export const FaqsMain = styled.div`
   width: 100%;
-  background-color: #e7efe8;
+  background-color: #fff;
   margin-top: -20px;
   display: flex;
   flex-direction: column;

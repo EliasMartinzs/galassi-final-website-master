@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainSpe = styled.section`
-  background-color: #e7efe8;
+  background-color: #fff;
   margin-top: -10px;
   margin-bottom: -10px;
   width: 100%;
@@ -25,7 +25,8 @@ export const SpeTitle = styled.h3`
   align-items: center;
 
   @media (min-width: 320px) and (max-width: 767px) {
-    font-size: 33px;
+    font-size: 38px;
+    padding-top: 20px;
   }
 `;
 
@@ -52,7 +53,7 @@ export const Img = styled.img`
 `;
 
 export const SpecialCard = styled.div`
-  background-color: rgba(280, 280, 280, 0.4);
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;

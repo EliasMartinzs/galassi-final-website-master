@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LocalMain = styled.div`
   width: 100%;
   height: 900px;
-  background-color: #e7efe8;
+  background-color: #fff;
   margin-bottom: -1px;
   padding: 80px;
 

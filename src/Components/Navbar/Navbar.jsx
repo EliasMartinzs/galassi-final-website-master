@@ -26,6 +26,10 @@ import WaveNav from "../../assets/waveNav.svg";
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
+  const scrollTo = () => {
+    window.scrollTo(top, { behavior: "smooth" });
+  };
+
   const handleClick = () => {
     setClick(!click);
   };
@@ -42,7 +46,9 @@ const Navbar = () => {
             )}
           </NavIcon>
 
-          <NavLogo to="/">Jonathan Gallasi</NavLogo>
+          <NavLogo to="/" onClick={scrollTo}>
+            Jonathan Gallasi
+          </NavLogo>
 
           <NavMenu onClick={handleClick} click={click}>
             <NavItems>
@@ -59,7 +65,9 @@ const Navbar = () => {
                 <NavLink href="#atendimentos">Atendimentos</NavLink>
               </NavItem>
               <NavItem>
-                <NavAbout to="/sobre">Sobre Mim</NavAbout>
+                <NavAbout to="/sobre" onClick={scrollTo}>
+                  Sobre Mim
+                </NavAbout>
               </NavItem>
             </NavItems>
             <NavMedia>

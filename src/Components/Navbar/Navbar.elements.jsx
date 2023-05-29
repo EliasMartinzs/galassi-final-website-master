@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const Nav = styled.div`
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 180px;
   align-items: center;
   position: sticky;
   z-index: 999;

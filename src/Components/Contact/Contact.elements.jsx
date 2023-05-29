@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ContactMain = styled.div`
   width: 100%;
-  background-color: #e7efe8;
+  background-color: #fff;
   padding: 50px;
 `;
 

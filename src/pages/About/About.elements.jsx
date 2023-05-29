@@ -4,32 +4,27 @@ import styled from "styled-components";
 export const AboutMain = styled.div`
   max-width: 99vw;
   margin-bottom: -20px;
-  background-color: #e7efe8;
+  background-color: #fff;
 `;
 
 export const AboutImg = styled.div`
   max-width: 99vw;
 `;
 
-export const Img = styled.img`
-  width: 100%;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  filter: grayscale(100%);
-`;
-
 export const AboutTitle = styled.h3`
   width: 99vw;
   height: 200px;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 700;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #000;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 32px;
+  }
 `;
 
 export const AboutWrapper = styled.div`
@@ -56,7 +51,7 @@ export const AboutUser = styled.div`
 export const ImgUser = styled.img`
   width: 500px;
   height: 500px;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
